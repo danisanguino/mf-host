@@ -3,6 +3,8 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const path = require('path');
 const Dotenv = require('dotenv-webpack');
 
+const { ModuleFederationPlugin } = require('webpack').container;
+
 const deps = require("./package.json").dependencies;
 
 const printCompilationMessage = require('./compilation.config.js');

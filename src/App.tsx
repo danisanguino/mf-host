@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { ColorPicker } from '../../mf-colorpicker/src/components/ColorPicker';
-import { ColorList } from '../../mf-colorlist/src/components/ColorList';
-import { useColors } from '../../mf-colorpicker/src/hooks/useColors';
+// import 
+import { ColorPicker } from 'mf_colorpicker/ColorPicker';
+import { ColorList } from 'mf_colorlist/ColorList';
+import { useColors } from 'mf_colorpicker/useColors';
 
 const App = () => {
 
